@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    
+    int i,n;
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    if(0<n)
+    {
+    printf("%d ",i);
+    }
+    for(i=n;i<=0;i++)
+    if(0>=n)
+    {
+    printf("%d ",i);
+    }
+    return 0;
+}
